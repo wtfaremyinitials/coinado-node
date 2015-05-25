@@ -1,0 +1,28 @@
+{
+  "name": "coinado",
+  "version": "0.0.0",
+  "description": "Download torrents via Coinado's HTTP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtfaremyinititials/coinado-node.git"
+  },
+  "keywords": [
+    "coinado",
+    "torrent",
+    "http"
+  ],
+  "author": "Will Franzen <wtfranzen@gmail.com> (http://will.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtfaremyinititials/coinado-node/issues"
+  },
+  "homepage": "https://github.com/wtfaremyinititials/coinado-node",
+  "dependencies": {
+    "got": "^3.2.0",
+    "readable-stream": "^1.0.33"
+  }
+}
